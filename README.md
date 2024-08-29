@@ -57,7 +57,7 @@ Here are GIFs demonstrating the start live streaming and join live streaming fun
 
 ![Start Live Streaming](https://github.com/anupamroy2021/LiveStreamingApp/blob/master/Start.gif)
 
-**Comment Feature:**
+**Join Live Streaming Feature:**
 
 ![Join Live Stream](https://github.com/anupamroy2021/LiveStreamingApp/blob/master/Join%20Live%20(1).gif)
 
