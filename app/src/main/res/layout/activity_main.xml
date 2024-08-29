@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stream"
+        android:textSize="30sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="140dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/startLiveBtn"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:src="@drawable/start"
+        android:layout_marginBottom="26dp"
+        android:padding="16dp"
+        android:contentDescription="Start Live"/>
+
+    <!-- Join Live ImageButton -->
+    <ImageButton
+        android:id="@+id/joinLiveBtn"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:src="@drawable/join"
+        android:layout_marginBottom="32dp"
+        android:padding="16dp"
+        android:contentDescription="Join Live" />
+
+</LinearLayout>
